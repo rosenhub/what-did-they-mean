@@ -14,7 +14,6 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![MeaningBench](https://img.shields.io/badge/MeaningBench-run%20it-orange?style=flat-square)](eval/)
 
-**把对方说的话贴进来，看懂对方的意思。为自闭症成年人设计，对所有人更好。**
 
 [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#meaningbench) · [Why not X](#why-not-no-subtext--explain-this-message--a-tone-analyzer) · [FAQ](#faq)
 
