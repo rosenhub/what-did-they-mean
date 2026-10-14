@@ -1,0 +1,21 @@
+name: Add a host
+description: An agent host that isn't in the install table
+labels: [host]
+body:
+  - type: input
+    id: host
+    attributes:
+      label: Host name
+    validations:
+      required: true
+  - type: input
+    id: path
+    attributes:
+      label: Where instruction files go
+      placeholder: e.g. .foo/rules/*.md
+    validations:
+      required: true
+  - type: input
+    id: docs
+    attributes:
+      label: Link to the host's docs for that path

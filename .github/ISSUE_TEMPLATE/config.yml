@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Benchmark results
+    url: https://github.com/rosenhub/what-did-they-mean/tree/main/eval/results
+    about: Post MeaningBench results as a PR, not an issue.

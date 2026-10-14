@@ -1,0 +1,31 @@
+name: Rule proposal
+description: Propose a new rule or a change to one of the 12
+labels: [rule]
+body:
+  - type: textarea
+    id: before
+    attributes:
+      label: Before
+      description: A real response you got from an agent. Paste it exactly.
+    validations:
+      required: true
+  - type: textarea
+    id: after
+    attributes:
+      label: After
+      description: What it should have said instead.
+    validations:
+      required: true
+  - type: input
+    id: who
+    attributes:
+      label: Who does this help, in one sentence?
+    validations:
+      required: true
+  - type: dropdown
+    id: which
+    attributes:
+      label: Which rule does this change?
+      options: ["1 Same structure", "2 Meaning first", "3 Literal reading too", "4 Name the expectation", "5 Label confidence", "6 Never obviously/clearly/just", "7 Options not a script", "8 What each option signals", "9 Flag devices by name", "10 Never pathologize asking", "11 One clarifying question", "12 No invented emotions", "New rule (say which one it replaces)"]
+    validations:
+      required: true

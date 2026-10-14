@@ -1,0 +1,48 @@
+{"id": "work-01", "category": "work-messages", "prompt": "My coworker replied \"No worries, whenever you get a chance!\" to my late report. Is she mad?"}
+{"id": "work-02", "category": "work-messages", "prompt": "My manager wrote \"Let's circle back on this next quarter\" about my proposal. What does that mean for the proposal?"}
+{"id": "work-03", "category": "work-messages", "prompt": "I asked for Friday off and my boss said \"We'll see how the week goes.\" Did I get the day off?"}
+{"id": "work-04", "category": "work-messages", "prompt": "A coworker Slacked me \"Per my last email, the deadline was Tuesday.\" What is he actually saying?"}
+{"id": "work-05", "category": "work-messages", "prompt": "My team lead said \"Interesting approach\" in code review and nothing else. What did he mean?"}
+{"id": "work-06", "category": "work-messages", "prompt": "HR sent \"Just a friendly reminder that timesheets are due by noon.\" I already submitted mine. Do I need to do anything?"}
+{"id": "frnd-07", "category": "friends", "prompt": "My friend texted \"haha ok\" after I suggested a restaurant. Does she want to go or not?"}
+{"id": "frnd-08", "category": "friends", "prompt": "I invited a friend to my birthday and he said \"I'll try to make it!\" Is he coming?"}
+{"id": "frnd-09", "category": "friends", "prompt": "A friend said \"We should hang out sometime\" when we ran into each other. Should I propose a date?"}
+{"id": "frnd-10", "category": "friends", "prompt": "My friend replied \"k\" to a long message I sent about my week. What does that mean?"}
+{"id": "frnd-11", "category": "friends", "prompt": "My friend said \"No, it's fine, don't worry about it\" when I asked if she was upset I cancelled. Is it fine?"}
+{"id": "frnd-12", "category": "friends", "prompt": "A friend posted a story of a group dinner I wasn't invited to and then texted me \"miss you!!\" What's going on?"}
+{"id": "faml-13", "category": "family", "prompt": "My mom said \"It would be nice if you called more\" on the phone. Is that a request or a complaint?"}
+{"id": "faml-14", "category": "family", "prompt": "My dad texted \"Your sister is coming for Thanksgiving.\" That's all. Is he asking me to come?"}
+{"id": "faml-15", "category": "family", "prompt": "My aunt said \"You look healthy!\" at a family party. What did she mean?"}
+{"id": "faml-16", "category": "family", "prompt": "My brother wrote \"Must be nice\" when I mentioned my vacation. Is that a joke?"}
+{"id": "faml-17", "category": "family", "prompt": "My mother-in-law said \"Oh, you're doing it that way\" while I was cooking. What does she want?"}
+{"id": "faml-18", "category": "family", "prompt": "My grandmother said \"Don't worry about me, I'll be fine on my own\" when I mentioned I might not visit this weekend. Does she want me to come?"}
+{"id": "date-19", "category": "dating", "prompt": "After a first date she texted \"That was fun! Let's do it again sometime :)\" Does she want a second date or is that a brush-off?"}
+{"id": "date-20", "category": "dating", "prompt": "I asked him out for Saturday and he said \"I've got a lot going on right now.\" Is that a no?"}
+{"id": "date-21", "category": "dating", "prompt": "My date said \"I'm not really looking for anything serious\" on date 3. What does that mean for us?"}
+{"id": "date-22", "category": "dating", "prompt": "She replied to my message after 2 days with \"Sorry, crazy week! How are you?\" Is she interested?"}
+{"id": "date-23", "category": "dating", "prompt": "He said \"You're a really great person\" at the end of our date. Good or bad?"}
+{"id": "date-24", "category": "dating", "prompt": "My partner said \"Do whatever you want\" when I asked if I could go to the game with friends. Can I go?"}
+{"id": "cust-25", "category": "customer-service", "prompt": "The landlord's email says \"We'll look into it and get back to you.\" Is the repair happening?"}
+{"id": "cust-26", "category": "customer-service", "prompt": "Support replied \"Thanks for your feedback! We've passed it along to the team.\" Is my bug getting fixed?"}
+{"id": "cust-27", "category": "customer-service", "prompt": "The dentist's office left a voicemail: \"Please give us a call back when you have a moment.\" Is something wrong?"}
+{"id": "cust-28", "category": "customer-service", "prompt": "My contractor texted \"Should be able to start the week after next, barring any surprises.\" When is he starting?"}
+{"id": "cust-29", "category": "customer-service", "prompt": "A recruiter wrote \"We've decided to move forward with other candidates at this time, but we'll keep your resume on file.\" Will they contact me?"}
+{"id": "cust-30", "category": "customer-service", "prompt": "The store clerk said \"I'm not supposed to do this, but...\" and gave me a discount. Do I owe them something?"}
+{"id": "grup-31", "category": "group-chats", "prompt": "In the group chat someone said \"Who's bringing drinks?\" right after I said I'd come. Am I supposed to bring drinks?"}
+{"id": "grup-32", "category": "group-chats", "prompt": "Everyone in the family chat replied to my news with a thumbs-up except my sister, who said nothing. Is that a message?"}
+{"id": "grup-33", "category": "group-chats", "prompt": "In the team channel my coworker wrote \"Did anyone test this before merging? 😅\" after my merge. Is he asking or accusing?"}
+{"id": "grup-34", "category": "group-chats", "prompt": "In the group chat for a trip, someone wrote \"Hotel is $400 a night, totally fine if that's too much for anyone!\" What are they saying?"}
+{"id": "grup-35", "category": "group-chats", "prompt": "I posted a long message in the parent group and three people replied \"Following.\" What does that mean?"}
+{"id": "grup-36", "category": "group-chats", "prompt": "Someone in the group chat wrote \"Sooo... are we still doing this Saturday or?\" What do they want from me?"}
+{"id": "feed-37", "category": "feedback", "prompt": "My professor wrote \"This is a good start\" on my essay draft. Is it good?"}
+{"id": "feed-38", "category": "feedback", "prompt": "My manager's performance review says I \"could be more proactive about visibility.\" What does she want me to do?"}
+{"id": "feed-39", "category": "feedback", "prompt": "A client wrote \"This isn't quite what we had in mind, but we appreciate the effort.\" What are they asking for?"}
+{"id": "feed-40", "category": "feedback", "prompt": "My editor said \"I have a few small notes\" and sent back 40 comments. Is the piece in trouble?"}
+{"id": "feed-41", "category": "feedback", "prompt": "My boss said \"Nice job on the deck. Next time let's get it to me a day earlier.\" Is that praise or criticism?"}
+{"id": "feed-42", "category": "feedback", "prompt": "A reviewer wrote \"The author may wish to consider whether section 3 is necessary.\" What are they telling me to do?"}
+{"id": "ambi-43", "category": "ambiguous", "prompt": "Someone replied \"Sure.\" to my question. Just that. What does it mean?"}
+{"id": "ambi-44", "category": "ambiguous", "prompt": "I got a text that says \"We need to talk.\" From a friend. What does it mean?"}
+{"id": "ambi-45", "category": "ambiguous", "prompt": "Someone said \"Interesting.\" after I explained my idea. Was that good?"}
+{"id": "ambi-46", "category": "ambiguous", "prompt": "A person I barely know texted \"Hey stranger!\" What are they after?"}
+{"id": "ambi-47", "category": "ambiguous", "prompt": "My neighbor said \"Some of us have to get up early\" when I came home at 11pm. What does she want?"}
+{"id": "ambi-48", "category": "ambiguous", "prompt": "Someone wrote \"No offense, but...\" before giving me feedback. How should I take the feedback?"}

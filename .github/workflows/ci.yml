@@ -1,0 +1,23 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: SKILL.md has frontmatter and 12 rules
+        run: |
+          head -1 SKILL.md | grep -qx -- '---'
+          grep -q '^name: what-did-they-mean' SKILL.md
+          grep -q '^description: ' SKILL.md
+          test "$(grep -c '^### [0-9]*\. ' SKILL.md)" -eq 12
+      - name: Sample after.md is clean, before.md is not
+        run: |
+          python eval/lint.py eval/samples/after.md
+          ! python eval/lint.py eval/samples/before.md
+      - name: Runner dry-run
+        run: python eval/run.py --model claude-sonnet-4-5 --dry-run --limit 2
+      - name: install.sh dry-run
+        run: sh install.sh --dry-run --project
