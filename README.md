@@ -22,7 +22,7 @@
 npx skills add rosenhub/what-did-they-mean
 ```
 
-<img src="assets/before-after.png" alt="Before: 115 words, answer in sentence 3, reassurance first, 'just', 'clearly', 'don't overthink it', one script. After: 107 words, answer in sentence 1, literal reading, expectation named, 85% sure, 3 options with signals." width="100%">
+<img src="assets/before-after.png" alt="Before: 74 words · no reasons given. After: 84 words · reasons, 75% sure, 3 options. An autistic adult who has reread one text 20 times since lunch." width="100%">
 
 Part of [AI Their Way](https://github.com/rosenhub/ai-their-way) — siblings: [no-subtext](https://github.com/rosenhub/no-subtext) · [never-say-remember](https://github.com/rosenhub/never-say-remember) · [easy-read](https://github.com/rosenhub/easy-read) · [presume-competence](https://github.com/rosenhub/presume-competence) · [low-demand](https://github.com/rosenhub/low-demand) · [is-this-a-scam](https://github.com/rosenhub/is-this-a-scam) · [one-thing](https://github.com/rosenhub/one-thing)
 
@@ -88,26 +88,28 @@ If your host isn't here and it reads markdown instructions from a file, it works
 
 Same model. Same prompt. The only change is the skill.
 
-### "My coworker replied 'No worries, whenever you get a chance!' to my late report. Is she mad?"
+### "I sent my friend a long message about my weekend. She replied “k”. Is she mad at me?"
+
+*An autistic adult who has reread one text 20 times since lunch.*
 
 **Before**
 
-> It's totally understandable to feel anxious about this! Honestly, though, I wouldn't read too much into it. "No worries, whenever you get a chance" is a pretty common, friendly phrase, and it most likely just means exactly what it says: she's not stressed about the timing. Of course, tone can be hard to read over text, and some people do use upbeat language to mask mild frustration, so it really depends on your relationship and her usual communication style. If you're still worried, you could always just send it over as soon as you can with a quick thank-you. Try not to overthink it, though. Chances are she's clearly fine with it! Hope this helps!
+> Oh no, I'm sure she's not mad! Honestly, people text in all kinds of ways, so I really wouldn't read too much into it. She was probably just busy. Some people just aren't big texters! It's totally normal to feel anxious about this, but try not to overthink it. If you're really worried, you could always just ask her, but I'd give it some time first. I'm sure everything is fine between you two!
 
 **After**
 
-> **Most likely meaning:** the delay is not a problem for her. About 85% sure.
+> Most likely meaning: she is busy, not mad. 75% sure.
 >
-> **Literal reading:** no complaint, no deadline, no request beyond "send it when you can."
+> Literal reading: "k" means "okay, I read it." Why probably not mad: one letter after a long message usually means "saw this, can't reply properly now."
 >
-> **What they expect:** the report today or tomorrow, no apology. "No worries" is a politeness formula: it means "I accept this."
+> What they expect: nothing from you right now.
 >
-> **Your options:**
-> 1. "Thanks. You'll have it by 3pm." Signals: reliable, no drama.
-> 2. "Thanks for the patience. Sending now." Signals: you noticed it was late.
-> 3. Send the file, no message. Signals: fine for a peer, cold for a manager.
+> Your options:
+> 1. Wait. Signals: relaxed, no pressure.
+> 2. "No rush to reply!" Signals: you saw it, no worry.
+> 3. "Are we okay?" Signals: you're worried. Fine to ask.
 >
-> **What I'm not sure about:** nothing here shows anger. I can't see what she feels beyond that.
+> What I'm not sure about: does she always text like this?
 
 ### "A friend said 'We should hang out sometime' when we ran into each other. Should I propose a date?"
 

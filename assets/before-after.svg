@@ -1,76 +1,41 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
-  <defs>
-    <style>
-      .panel { fill: #0d1117; stroke: #30363d; stroke-width: 1.5; }
-      .label { font-size: 13px; font-weight: 700; letter-spacing: 1.5px; fill: #8b949e; }
-      .q { font-size: 17px; fill: #c9d1d9; }
-      .a { font-size: 16px; fill: #e6edf3; }
-      .dim { fill: #6e7681; }
-      .strike { fill: #8b949e; text-decoration: line-through; }
-      .good { fill: #3fb950; }
-      .bad { fill: #f85149; }
-      .meta { font-size: 13px; fill: #8b949e; }
-      .bubble-user { fill: #1f6feb; }
-      .bubble-ai { fill: #161b22; stroke: #30363d; }
-      .title { font-size: 24px; font-weight: 800; fill: #e6edf3; }
-      .sub { font-size: 16px; fill: #8b949e; }
-    </style>
-  </defs>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="620" viewBox="0 0 1200 620" font-family="ui-sans-serif, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif">
+  <rect width="1200" height="620" fill="#010409"/>
+  <text x="600" y="46" text-anchor="middle" font-size="28" font-weight="800" fill="#e6edf3">"I sent my friend a long message. She replied “k”. Is she mad?"</text>
+  <text x="600" y="76" text-anchor="middle" font-size="17" font-style="italic" fill="#c9d1d9">An autistic adult who has reread one text 20 times since lunch.</text>
+  <text x="600" y="99" text-anchor="middle" font-size="13" fill="#6e7681">Same model. Same question. The only difference is one skill file.</text>
 
-  <rect width="1200" height="560" fill="#010409"/>
-
-  <text x="600" y="46" text-anchor="middle" class="title">"My coworker replied 'No worries, whenever you get a chance!' to my late report. Is she mad?"</text>
-  <text x="600" y="74" text-anchor="middle" class="sub">Same model. Same question. Only difference: one markdown file in the system prompt.</text>
-
-  <!-- BEFORE -->
-  <rect x="40" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="64" y="130" class="label">BEFORE</text>
-  <text x="560" y="130" text-anchor="end" class="meta bad">115 words · answer in sentence 3</text>
-
-  <rect x="64" y="148" width="497" height="340" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="15">
-    <text x="84" y="178">It's totally understandable to feel anxious about this!</text>
-    <text x="84" y="201">Honestly, though, I wouldn't read too much into it. "No</text>
-    <text x="84" y="224">worries, whenever you get a chance" is a pretty common,</text>
-    <text x="84" y="247">friendly phrase, and it most likely just means exactly</text>
-    <text x="84" y="270">what it says: she's not stressed about the timing. Of</text>
-    <text x="84" y="293">course, tone can be hard to read over text, and some</text>
-    <text x="84" y="316">people do use upbeat language to mask mild frustration,</text>
-    <text x="84" y="339">so it really depends on your relationship and her usual</text>
-    <text x="84" y="362">communication style. If you're still worried, you could</text>
-    <text x="84" y="385">always just send it over as soon as you can with a quick</text>
-    <text x="84" y="408">thank-you. Try not to overthink it, though. Chances are</text>
-    <text x="84" y="431">she's clearly fine with it! Hope this helps!</text>
+  <rect x="40" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="64" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">BEFORE</text>
+  <text x="560" y="148" text-anchor="end" font-size="13" fill="#f85149">74 words · no reasons given</text>
+  <rect x="64" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="84" y="196" font-size="15">Oh no, I'm sure she's not mad! Honestly, people text in</text>
+    <text x="84" y="218" font-size="15">all kinds of ways, so I really wouldn't read too much</text>
+    <text x="84" y="240" font-size="15">into it. She was probably just busy. Some people just</text>
+    <text x="84" y="262" font-size="15">aren't big texters! It's totally normal to feel anxious</text>
+    <text x="84" y="284" font-size="15">about this, but try not to overthink it. If you're</text>
+    <text x="84" y="306" font-size="15">really worried, you could always just ask her, but I'd</text>
+    <text x="84" y="328" font-size="15">give it some time first. I'm sure everything is fine</text>
+    <text x="84" y="350" font-size="15">between you two!</text>
   </g>
-  <g class="meta bad" font-size="12">
-    <text x="84" y="506">✗ reassurance first  ✗ "just", "clearly"  ✗ "overthink"  ✗ one script  ✗ no confidence</text>
-  </g>
+  <text x="84" y="524" font-size="12" fill="#f85149">✗ "I'm sure"  ✗ "just"  ✗ "overthink"  ✗ no reasons  ✗ one script</text>
 
-  <!-- AFTER -->
-  <rect x="615" y="100" width="545" height="420" rx="12" class="panel"/>
-  <text x="639" y="130" class="label">AFTER · what-did-they-mean</text>
-  <text x="1135" y="130" text-anchor="end" class="meta good">107 words · answer in sentence 1</text>
-
-  <rect x="639" y="148" width="497" height="340" rx="10" class="bubble-ai"/>
-  <g class="a" font-size="14">
-    <text x="659" y="172"><tspan font-weight="700">Most likely meaning:</tspan> the delay is not a problem for her.</text>
-    <text x="659" y="192">About 85% sure.</text>
-    <text x="659" y="212"><tspan font-weight="700">Literal reading:</tspan> no complaint, no deadline, no request</text>
-    <text x="659" y="232">beyond "send it when you can."</text>
-    <text x="659" y="252"><tspan font-weight="700">What they expect:</tspan> the report today or tomorrow, no</text>
-    <text x="659" y="272">apology. "No worries" is a politeness formula: it means "I</text>
-    <text x="659" y="292">accept this."</text>
-    <text x="659" y="312"><tspan font-weight="700">Your options:</tspan></text>
-    <text x="659" y="332">1. "Thanks. You'll have it by 3pm." Signals: reliable, no</text>
-    <text x="659" y="352">drama.</text>
-    <text x="659" y="372">2. "Thanks for the patience. Sending now." Signals: you</text>
-    <text x="659" y="392">noticed it was late.</text>
-    <text x="659" y="412">3. Send the file, no message. Signals: fine for a peer,</text>
-    <text x="659" y="432">cold for a manager.</text>
-    <text x="659" y="452" class="dim"><tspan font-weight="700">What I'm not sure about:</tspan> nothing here shows anger. I can't</text>
-    <text x="659" y="472" class="dim">see what she feels beyond that.</text>
+  <rect x="615" y="118" width="545" height="460" rx="12" fill="#0d1117" stroke="#30363d" stroke-width="1.5"/>
+  <text x="639" y="148" font-size="13" font-weight="700" letter-spacing="1.5" fill="#8b949e">AFTER · what-did-they-mean</text>
+  <text x="1135" y="148" text-anchor="end" font-size="13" fill="#3fb950">84 words · reasons, 75% sure, 3 options</text>
+  <rect x="639" y="166" width="497" height="376" rx="10" fill="#161b22" stroke="#30363d"/>
+  <g fill="#e6edf3">
+    <text x="659" y="196" font-size="15" font-weight="700">Most likely meaning: she is busy, not mad. 75% sure.</text>
+    <text x="659" y="230" font-size="15">Literal reading: "k" means "okay, I read it."</text>
+    <text x="659" y="252" font-size="15">Why probably not mad: one letter after a long message</text>
+    <text x="659" y="274" font-size="15">usually means "saw this, can't reply properly now."</text>
+    <text x="659" y="308" font-size="15">What they expect: nothing from you right now.</text>
+    <text x="659" y="342" font-size="15">Your options:</text>
+    <text x="659" y="364" font-size="15">1. Wait. Signals: relaxed, no pressure.</text>
+    <text x="659" y="386" font-size="15">2. "No rush to reply!" Signals: you saw it, no worry.</text>
+    <text x="659" y="408" font-size="15">3. "Are we okay?" Signals: you're worried. Fine to ask.</text>
+    <text x="659" y="442" font-size="15" fill="#8b949e">What I'm not sure about: does she always text like this?</text>
+    
   </g>
-  <g class="meta good" font-size="12">
-    <text x="659" y="506">✓ meaning first  ✓ literal reading  ✓ expectation  ✓ 85% sure  ✓ 3 options + signals</text>
-  </g>
+  <text x="659" y="524" font-size="12" fill="#3fb950">✓ meaning first  ✓ literal reading  ✓ confidence  ✓ 3 options</text>
 </svg>
