@@ -14,12 +14,13 @@
 [![Status](https://img.shields.io/badge/status-v1.0-brightgreen?style=flat-square)](CHANGELOG.md)
 [![MeaningBench](https://img.shields.io/badge/MeaningBench-run%20it-orange?style=flat-square)](eval/)
 
-
-[Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#meaningbench) · [Why not X](#why-not-no-subtext--explain-this-message--a-tone-analyzer) · [FAQ](#faq)
+[For caregivers](#for-parents-and-caregivers) · [Install](#install) · [Before / After](#before--after) · [The 12 rules](#the-12-rules) · [Benchmark](#meaningbench) · [Why not X](#why-not-no-subtext--explain-this-message--a-tone-analyzer) · [FAQ](#faq)
 
 ```bash
 npx skills add rosenhub/what-did-they-mean
 ```
+
+**Not a developer? [Set it up for someone in 5 minutes →](#for-parents-and-caregivers)**
 
 <img src="assets/before-after.png" alt="Before: 74 words · no reasons given. After: 84 words · reasons, 75% sure, 3 options. An autistic adult who has reread one text 20 times since lunch." width="100%">
 
@@ -41,6 +42,91 @@ Ask a chatbot and you get a paragraph of reassurance, the phrase "don't overthin
 Neurotypical subtext is a second language. Most people run the decoder without noticing. Autistic people are asked to run it by hand, all day, and then told the question is the problem. It is not. It is a translation problem. Translate the message and everyone gets a better answer.
 
 `what-did-they-mean` is one markdown file that turns any agent into a translator: what the words say, what the person most likely meant, what they expect you to do, your options and what each one signals, and how sure the agent is. Same structure every time. Never "obviously."
+
+## For parents and caregivers
+
+**No coding.** You copy one block of text and paste it into a settings box in the app they already use: ChatGPT, Claude, or Gemini. It takes about 5 minutes. Every new chat after that follows the rules.
+
+**Set it up with them, not for them.** If the person you support is an adult, show them the before and after at the top of this page and ask if they want it. It changes how their AI talks to them, so it's their call. They can turn it off any time.
+
+This one is for **an autistic adult who wants help reading what other people mean**.
+
+### 1. Copy this
+
+Click the copy button in the top-right corner of the box.
+
+```text
+When I paste a message or tell you what someone said, translate it. Neurotypical subtext is a second language, not the right way to talk.
+Answer in this order, every time:
+Most likely meaning: one sentence, and how sure you are ("75% sure").
+Literal reading: what the words actually say.
+What they expect: what they want me to do, and by when. If nothing, say "nothing."
+My options: 2 or 3 replies, and what each one signals.
+What you're not sure about: what would change your answer.
+Rules:
+- Name politeness formulas, sarcasm, and hints by name.
+- Never say "obviously," "clearly," "just," or "you should have known."
+- Never tell me I'm overthinking. Asking is reasonable.
+- Don't guess feelings the words don't show.
+- If you need to know who this person is to me, ask one question, then still give your best reading.
+- Plain words. No idioms.
+```
+
+The same text is in [`paste-this.txt`](paste-this.txt).
+
+### 2. Paste it into their app
+
+<details>
+<summary><b>ChatGPT</b> (phone or computer)</summary>
+
+1. Open ChatGPT, signed in as them.
+2. Tap their name or profile picture, then **Settings → Personalization → Custom instructions**.
+3. Paste the text into the box that asks how ChatGPT should respond. Some versions call it **"What traits should ChatGPT have?"** Make sure custom instructions are switched on.
+4. Save. Then start a **new** chat. Old chats don't change.
+
+</details>
+
+<details>
+<summary><b>Claude</b> (phone or computer)</summary>
+
+1. Open Claude, signed in as them.
+2. Go to **Projects → New project**. Give it a name they'll recognize, like "My chat."
+3. Open the project's **instructions** and paste the text. Save.
+4. From now on they chat inside that project. In the phone app it's in the menu.
+
+</details>
+
+<details>
+<summary><b>Gemini</b> (phone or computer)</summary>
+
+1. On a computer, go to gemini.google.com, signed in as them.
+2. Open **Gems → New Gem** and give it a name.
+3. Paste the text into **Instructions**. Save.
+4. They chat with that Gem. It also shows up in the Gemini phone app.
+
+</details>
+
+Menus move around between app versions. If a name doesn't match, look for the word **instructions** or **customize**.
+
+### 3. Check that it worked
+
+In a new chat, type:
+
+> My friend replied "k" to my long message. Is she mad?
+
+You should see the same five headings every time, with a percentage. No "I'm sure she's fine."
+
+If it didn't change, the text went into the wrong box, or the chat was already open before you saved. Start a new chat and try again.
+
+### To turn it off
+
+Delete the text from the same box and save.
+
+### Want more than this?
+
+This text changes how the AI talks. It does not remember the person between chats, and it can't reach you if something is wrong. [Guardian](https://guardian.alwayshere.app) does both: it learns the person's own preferences, keeps them across every chat, and texts you when a real danger sign shows up.
+
+Setting this up for several people, or not sure which skill fits? The **[caregiver setup page](https://rosenhub.github.io/ai-their-way/?for=what-did-they-mean)** walks you through it.
 
 ## Install
 
